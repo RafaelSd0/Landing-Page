@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="fixed top-0 left-0 right-0 bg-white shadow shadow-gray-300">
+        <div class="flex justify-evenly py-5  ">
+        
+        <input type="button" value="Inicio" class=" text-xl md:text-lg sm:text-base cursor-pointer hover:border-b-2 hover:border-opacity-30" onclick="scrollToSection('section1')">
+        <input type="button" value="Sobre" class=" text-xl md:text-lg sm:text-base cursor-pointer hover:border-b-2 hover:border-opacity-30" onclick="scrollToSection('section2')">
+        <input type="button" value="Contato" class=" text-xl md:text-lg sm:text-base cursor-pointer hover:border-b-2 hover:border-opacity-30" onclick="scrollToSection('section3')">
+        </div>
+    </header>
+    <main id="section1" class=" h-screen w-screen flex justify-between  ">
+        <div class="pt-36 mx-20 text-center space-y-8">
+
+            <h1 class="text-5xl md:text-4xl sm:text-3xl font-bold mb-4">Lorem</h1>
+
+            <p class="text-xl md:text-lg sm:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum tempora nesciunt labore ipsum, voluptatibus iusto rem a cumque illo quae, reiciendis fugit id officia nemo corrupti excepturi laborum ab? Cumque? clique em comprar agora e garanta já o seu.</p>
+            
+            <button class="h-14 w-40 text-xl md:text-lg sm:text-base font-bold bg-slate-200 rounded-lg" onclick="comprar()">Comprar Agora</button>
+
+        </div>
+
+        <img class="  h-screen" src="/assets/products/10571899.png" alt="#">
+    </main>
+    <section id="section2" class=" h-screen w-screen flex justify-between  ">
+        
+        <img class=" pt-32  h-5/6 " src="/assets/products/10571954.png" alt="#">
+
+        <div class="pt-36 text-center space-y-8 mx-20"> 
+
+            <h2 class="text-4xl md:text-3xl sm:text-2xl font-bold mb-4">Lorem</h2>
+
+            <p class="text-xl md:text-lg sm:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis porro possimus sunt nobis rerum hic quaerat, quos dolorem in earum, iure doloribus velit. Quia sapiente quod perspiciatis culpa perferendis quaerat.</p> 
+
+            <p class="text-xl md:text-lg sm:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci voluptates hic aliquid ex ipsum, quasi sequi, eius itaque non asperiores quo quibusdam repellat libero dolores voluptatem, veniam facilis unde?</p>
+
+        </div>
+    </section>
+
+    <footer id="section3" class=" mb-5 p-5 border-t-2 border-black border-opacity-30">
+        <h3 class="text-center text-3xl md:text-2xl sm:text-1xl font-bold mb-4">&COPY; Rafael Silva</h3>
+        
+        <div class=" flex justify-around ">
+
+            <a class="hover:animate-pulse" href="mailto:rafaelmsg01@outlook.com"><img src="https://img.icons8.com/sf-regular-filled/48/new-post.png" alt="Email Rafael"  width="49"></a>
+
+            <a class="hover:animate-pulse" href="https://t.me/RafaelSil777"> <img src="https://img.icons8.com/ios-filled/50/telegram.png" width="46" alt="Telegran Rafael"></a>
+
+            <a class="hover:animate-pulse" href="https://github.com/RafaelSd0"> <img src="/assets/icons8-github-64.png" width="52" alt="Git Hub Rafael"></a>
+            
+            <a class="hover:animate-pulse" href="https://www.linkedin.com/in/rafael-silva-1713b1285/">
+                <img src="/assets/icons8-linkedin-50.png" width="45" alt="linkedin Rafael">
+            </a>
+
+        </div>
+    </footer>
+   
+</body>
+<script src="./script.js"></script>
+</html>
